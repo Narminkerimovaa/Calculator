@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgcolor:#e05d96;
+    --bg-result:#a0929296;
+    --container-shadow:#967d868f;
+    --container-color:#ffe9f5;
+    --operating-button:#ff94b9c9;
+    --number-button:#fec5d5bf;
+}

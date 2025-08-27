@@ -1,0 +1,82 @@
+body {
+  background-color: var(--bgcolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  height: 85vh;
+  border: 1px solid #fff;
+  background-color: var(--container-color);
+  border-radius: 30px;
+  padding: 2rem;
+  box-shadow: 10px 10px 5px var(--container-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .result_area {
+  width: 100%;
+  height: 13%;
+  background-color: var(--bg-result);
+  border-radius: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.container .button_area {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .button_area .button_line {
+    width: 100%;
+    height: calc(100% / 7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .button_area .line_5{
+    justify-content: start;
+    gap: 1.38rem;
+}
+
+.container .button_area .button_line .button{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .button_area .button_line .double_button{
+    width: 46%;
+}
+
+.container .button_area .button_line .button_numbers{
+    color: #000;
+    background-color: var(--number-button);
+}
+
+.container .button_area .button_line .operation_buttons{
+    color: #fff;
+    background-color: var(--operating-button);
+}
